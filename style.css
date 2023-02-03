@@ -1,0 +1,178 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --Softblue: hsl(215, 51%, 70%);
+    --Cyan:hsl(178, 100%, 50%);
+    --Verydarkblue1:  hsl(217, 54%, 11%);
+    --Verydarkblue2: hsl(216, 50%, 16%);
+    --Verydarkblue3: hsl(215, 32%, 27%);
+    --White:hsl(0, 0%, 100%);
+}
+body{
+    font-family: 'Outfit', sans-serif;
+    background-color: var(--Verydarkblue1);
+}
+
+.contenedor{
+    width: 350px;
+    height: 520px;
+   
+    margin: 81px auto;
+    padding: 17px;
+    border-radius: 16px;
+    background-color: var(--Verydarkblue2);
+}
+.img{
+    background-image: url(./images/image-equilibrium.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 314px;
+    height: 250px;
+    
+    border-radius: 10px;
+}
+.hover{
+    width: 100%;
+    height: 100%;
+   
+    border-radius: 10px;
+    
+    
+   
+    cursor: pointer;
+    
+    
+    
+
+}
+.c{
+    position: absolute;
+    top: 200px;
+    right: 810px;
+    display: none;
+    
+   
+   
+   
+   
+}
+.hover:hover{
+    background-color: rgba(0, 255, 255, 0.356);
+    cursor: pointer;
+}
+
+    
+
+
+    
+
+.hover:hover .c{
+    
+    display: block;
+   
+   
+   
+    
+}
+
+  
+
+
+.text{
+    height: 230px;
+    padding: 8px;
+    
+}
+h1{
+    margin-top: 15px;
+    font-size: 23px;
+    color: var(--White);
+}
+h1:hover{
+    color: aqua;
+    cursor: pointer;
+}
+.p1{
+    margin-top: 10px;
+    color: var(--Softblue);
+    padding-top:  10px;
+    font-size: 16px;
+    gap: 8px;
+}
+.p2{
+    color: aqua;
+    display: flex;
+    align-items: center;
+    
+    
+   
+
+}
+.p3{
+   
+    display: flex;
+    align-items: center;
+    margin-right: 5px;
+    color: var(--White);
+    
+    
+}
+.p6{
+   
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    gap: 112px;
+    
+    margin-top: 25px;
+   
+    
+}
+.p4{
+    display: flex;
+    align-items: center;
+    padding: 6px;
+    padding-top: 10px;
+    color: var(--White);
+    margin-top: 20px;
+    border-top: 1px solid rgba(255, 255, 255, 0.233);
+    
+    
+   
+
+    
+    gap: 15px;
+}
+img{
+    height: 30px;
+}
+span{
+    color: var(--Softblue);
+}
+.attribution { font-size: 11px; text-align: center; 
+margin-top: 300px;}
+    .attribution a { color: hsl(228, 45%, 44%); }
+.a {
+    margin-right: 5px;
+   
+}  
+.b{
+    margin-right: 5px;
+}  
+.xd{
+    border:1px solid white ;
+    border-radius: 50%;
+}
+.e:hover{
+    color: aqua;
+    cursor: pointer;
+
+}
